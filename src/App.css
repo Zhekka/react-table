@@ -1,0 +1,21 @@
+.App {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+table {
+    border-spacing: 0;
+    border: 2px solid black;
+}
+
+
+table td, th {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+
+}
+
