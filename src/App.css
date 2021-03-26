@@ -1,11 +1,11 @@
 .App {
-    display: flex;
-    justify-content: center;
+
     text-align: center;
 
 }
 
 table {
+    margin: 0 auto;
     border-spacing: 0;
     border: 2px solid black;
 }

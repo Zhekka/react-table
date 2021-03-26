@@ -1,8 +1,12 @@
 import './App.css';
 import Table from "./Table/Table";
-import React, {useMemo} from "react";
+import React from "react";
+import Form from "./Form/Form";
+import MaterialTable from "./MaterialTable/MaterialTable";
+
 
 function App() {
+
     const columns = [
         {
             Header: "TV Show",
@@ -39,8 +43,6 @@ function App() {
             ]
         }
     ];
-
-
     const data = [
         {
             "show": {
@@ -71,7 +73,11 @@ function App() {
 
     return (
         <div className="App">
-            <Table columns={columns} data={data}/>
+            <Form/>
+
+
+
+            {/*<Table columns={columns} data={data}/>*/}
 
         </div>
     );
